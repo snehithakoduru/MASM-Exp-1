@@ -56,15 +56,9 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|       1200🔢       01         12
-
-|         1200                    |
-
-#### Manual Calculations
-
-(Add your calculation here)
-
----
+|       1200H                      68H               |
+|       1201H                      24H               |
+|       1202H                      00H               |
 
 ## OUTPUT IMAGE FROM MASM SOFTWARE
 
@@ -109,13 +103,9 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
-
+|           2004H         |         4444H            |
+|           2006H         |         00H              |
 #### Manual Calculations
-
-(Add your calculation here)
-
----
 
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
@@ -158,13 +148,10 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
+|      2004H              |       2468H              |
+|      2006H              |       0000H              |
 
 #### Manual Calculations
-
-(Add your calculation here)
-
----
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
 
@@ -203,13 +190,9 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
-
+|        2004H            |       OOO5H(QUOTIENT)    |
+|        2006H            |       0000H(REMAINDER)   |
 #### Manual Calculations
-
-(Add your calculation here)
-
----
 ## OUTPUT FROM MASM SOFTWARE
 
 
